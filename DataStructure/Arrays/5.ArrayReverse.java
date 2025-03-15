@@ -34,15 +34,21 @@ class ArrayReverse {
 
     // Function to reverse the array
     public static void reverseArray(int[] arr) {
-        int left = 0, right = arr.length - 1;
-        while (left < right) {
-            // Swap elements
-            int temp = arr[left];
-            arr[left] = arr[right];
-            arr[right] = temp;
-            left++;
-            right--;
-        }
+//        int left = 0, right = arr.length - 1;
+//        while (left < right) {
+//            // Swap elements
+//            int temp = arr[left];
+//            arr[left] = arr[right];
+//            arr[right] = temp;
+//            left++;
+//            right--;
+//        }
+    for (int i = 0; i <= arr.length/2; i++){
+        int temp = arr[(arr.length-1)-i];
+        arr[(arr.length-1)-i] = arr[i];
+        arr[i] = temp;
+    }
+
     }
 
     // Function to display the array
