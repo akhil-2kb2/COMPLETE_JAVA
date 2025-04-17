@@ -3,7 +3,6 @@ public abstract class Student {
     protected String name;
     protected double per;
 
-    // Constructor with parameters
     public Student(int roll, String name, double per) {
         if (roll < 0) {
             System.out.println("Invalid roll number");

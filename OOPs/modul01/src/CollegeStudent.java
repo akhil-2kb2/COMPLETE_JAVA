@@ -1,11 +1,10 @@
-public class CollegeStudent extends Student {
+public class CollegeStudent extends Student1 {
 
     public CollegeStudent(int roll, String name, double per) {
         super(roll, name, per); // call parent constructor
     }
 
-    @Override   // overriding the abstract method
-    // Implementing the abstract method showStudent
+    @Override
     public void showStudent() {
         System.out.println("College Student Details:");
         System.out.println("Roll: " + roll);
