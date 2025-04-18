@@ -1,8 +1,0 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Ignore build outputs
-*.class
-/out/
-/.idea/
-/.DS_Store
