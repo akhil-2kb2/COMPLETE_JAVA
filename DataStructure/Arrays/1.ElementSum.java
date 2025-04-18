@@ -5,8 +5,8 @@ class ElementSum {
         Scanner input = new Scanner(System.in);
         greetUser();
 
-        int[] numbers = initialize(input);  // Initialize array with user input
-        int sum = sumElements(numbers);  // Compute sum
+        int[] numbers = initialize(input);
+        int sum = sumElements(numbers);
 
         System.out.println("Total Sum Of Elements: " + sum);
         System.out.println(".....Happy 😀 Coding.....");
@@ -19,7 +19,7 @@ class ElementSum {
         int[] myInt = new int[10];
         System.out.print("Enter 10 Integer Numbers:");
         for (int i = 0; i < myInt.length; i++) {
-            myInt[i] = input.nextInt();  // Store user input in array
+            myInt[i] = input.nextInt();
         }
         return myInt;
     }
@@ -27,7 +27,7 @@ class ElementSum {
     public static int sumElements(int[] arr) {
         int sum = 0;
         for (int num : arr) {
-            sum += num;  // Add each element to sum
+            sum += num;
         }
         return sum;
     }
