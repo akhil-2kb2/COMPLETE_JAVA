@@ -45,6 +45,7 @@ public class StaticMember {
         Counter c1 = new Counter(); // Count: 1
         Counter c2 = new Counter(); // Count: 2
         Counter c3 = new Counter(); // Count: 3
+        Counter c4 = new Counter(); // Count: 4
 
 
 
