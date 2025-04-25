@@ -17,9 +17,6 @@ class Demo {
     }
 }
 
-
-
-
 class Counter {
     static int count = 0; // static variable
 
@@ -28,7 +25,6 @@ class Counter {
         System.out.println("Count: " + count);
     }
 }
-
 
 public class StaticMember {
     public static void main(String[] args) {
@@ -41,13 +37,15 @@ public class StaticMember {
 //        Demo.display(); // Static method called
 //        Demo.display(); // Static method called
 
-
         Counter c1 = new Counter(); // Count: 1
         Counter c2 = new Counter(); // Count: 2
         Counter c3 = new Counter(); // Count: 3
         Counter c4 = new Counter(); // Count: 4
 
 
+        Demo.y = 44;
+
+        System.out.println(Demo.y);
 
 
     }
