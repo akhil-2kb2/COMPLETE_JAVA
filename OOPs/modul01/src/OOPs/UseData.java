@@ -18,6 +18,7 @@ public class UseData {
         Data data = new Data();
         Data data1 = new Data();
         Data data2 = new Data();
+        Data data3 = new Data();
     }
 }
 // In this code, we have a static block in the Data class that prints a message when the class is loaded.
