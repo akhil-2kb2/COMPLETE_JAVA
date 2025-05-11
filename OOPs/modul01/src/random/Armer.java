@@ -5,7 +5,12 @@ public class Armer {
     public static boolean isArmstrong(int number) {
         int original = number;
         int sum = 0;
-        int digits = String.valueOf(number).length();
+        int digits = String.valueOf(number).length(); // Count the number of digits how?
+        // by converting the number to a string and getting its length,
+        // why using String.valueOf(number).length(); instead of using a loop to count digits?
+        // because it's a more concise and efficient way to get the number of digits
+        // in the number without needing to manually divide the number repeatedly
+
 
         while (number != 0) {
             int digit = number % 10;
