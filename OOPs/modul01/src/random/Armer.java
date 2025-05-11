@@ -19,7 +19,7 @@ public class Armer {
     public static void main(String[] args) {
         System.out.println("Armstrong Numbers between 0 and 999999999 are:");
 
-        for (int i = 0; i <= 999999999; i++) {
+        for (int i = 0; i <= 999999; i++) {
             if (isArmstrong(i)) {
                 System.out.println(i);
             }
