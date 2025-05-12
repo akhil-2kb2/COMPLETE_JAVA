@@ -27,6 +27,7 @@ public class Armer {
         for (int i = 0; i <= 999999; i++) {
             if (isArmstrong(i)) {
                 System.out.println(i);
+                System.out.println("Armstrong number: " + i);
             }
         }
     }
