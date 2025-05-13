@@ -28,6 +28,7 @@ public class Armer {
             if (isArmstrong(i)) {
                 System.out.println(i);
                 System.out.println("Armstrong number: " + i);
+                // System.out.println("Armstrong number: " + i);
             }
         }
     }
