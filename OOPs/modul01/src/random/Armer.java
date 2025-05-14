@@ -29,6 +29,7 @@ public class Armer {
                 System.out.println(i);
                 System.out.println("Armstrong number: " + i);
                 // System.out.println("Armstrong number: " + i);
+                System.out.println("Armstrong number: " + i+ " is an Armstrong number.");
             }
         }
     }
