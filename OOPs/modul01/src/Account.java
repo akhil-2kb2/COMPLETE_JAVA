@@ -21,7 +21,7 @@ public class Account {
         // to ensure that they are not modified after initialization.
 
 
-        input.close();
+        input.close(); // close the scanner
     }
     public Account(int accID, String s, double bal) {
         acctID = accID;
