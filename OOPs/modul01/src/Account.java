@@ -19,6 +19,7 @@ public class Account {
         // and it is shared by all instances of the class.
         // It is a good practice to make static variables final
         // to ensure that they are not modified after initialization.
+        // This is a good practice to ensure that the rate of interest
 
 
         input.close(); // close the scanner
