@@ -66,6 +66,7 @@ class BinaryTree {
     }
 
     // Calculate the height of the tree (max depth)
+    //
     public int height(Node node) {
         if (node == null) return 0;
         int leftHeight = height(node.left);
