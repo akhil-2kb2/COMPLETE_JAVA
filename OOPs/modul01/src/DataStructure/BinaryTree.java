@@ -74,6 +74,7 @@ class BinaryTree {
     }
 
     // Level order traversal (Breadth-first)
+    // It is all about Horizontal nodes left to right in sequentially
     public void levelOrder() {
         if (root == null) return;
 
