@@ -60,8 +60,8 @@ class BinaryTree {
     }
 
     // Calculate size (total nodes) of the tree
-    //
-    public int size(Node node) {
+    // This is a recursive function that counts the number of nodes in the tree
+    public int size(Node node) { //
         if (node == null) return 0;
         return 1 + size(node.left) + size(node.right);
     }
