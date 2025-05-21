@@ -2,7 +2,7 @@ package random;
 
 import java.util.Scanner;
 
-public class PalindromeChecker {
+public class PalindromeNumberChecker {
 
     public static boolean isPalindrome(int number) {
         int original = number;
