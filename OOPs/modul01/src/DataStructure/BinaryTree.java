@@ -67,7 +67,7 @@ class BinaryTree {
     }
 
     // Calculate the height of the tree (max depth)
-    //
+    // This is a recursive function that calculates the height of the tree
     public int height(Node node) {
         if (node == null) return 0;
         int leftHeight = height(node.left);
