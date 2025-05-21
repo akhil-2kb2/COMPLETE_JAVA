@@ -33,7 +33,7 @@ class BinaryTree {
     }
 
     // Preorder traversal: Root -> Left -> Right
-    public void preorder(Node node) {
+    public void preorder(Node node) { //
         if (node == null) return;
 
         System.out.print(node.data + " ");
