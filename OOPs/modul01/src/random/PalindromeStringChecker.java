@@ -16,7 +16,7 @@ public class PalindromeStringChecker {
             right--;
         }
 
-        return true;
+        return true;// if we reach here, it means the string is a palindrome
     }
 
     public static void main(String[] args) {
