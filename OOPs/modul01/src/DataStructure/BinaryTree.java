@@ -92,7 +92,9 @@ class BinaryTree {
         }
     }
 
-    public static void main(String a[]) {
+    public static void main(String a[]) { // Main method to test the BinaryTree class
+        // Create a BinaryTree object
+
         BinaryTree tree = new BinaryTree();
 
         // Build a simple tree
