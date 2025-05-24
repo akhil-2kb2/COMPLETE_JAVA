@@ -105,7 +105,7 @@ class BinaryTree {
         System.out.println();
 
         System.out.print("Inorder traversal: ");
-        tree.inorder(tree.root);
+        tree.inorder(tree.root); // Perform inorder traversal
         System.out.println();
 
         System.out.print("Postorder traversal: ");
