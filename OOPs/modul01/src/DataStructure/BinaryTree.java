@@ -101,7 +101,7 @@ class BinaryTree {
         tree.buildSampleTree();
 
         System.out.print("Preorder traversal: ");
-        tree.preorder(tree.root);
+        tree.preorder(tree.root); // Perform preorder traversal
         System.out.println();
 
         System.out.print("Inorder traversal: ");
