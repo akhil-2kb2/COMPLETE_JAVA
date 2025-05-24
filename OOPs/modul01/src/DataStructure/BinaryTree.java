@@ -84,7 +84,7 @@ class BinaryTree {
         queue.add(root);
 
         while (!queue.isEmpty()) {
-            Node current = queue.poll();
+            Node current = queue.poll(); // Get the front node from the queue
             System.out.print(current.data + " ");
 
             if (current.left != null) queue.add(current.left);
