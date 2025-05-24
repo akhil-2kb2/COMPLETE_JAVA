@@ -113,7 +113,7 @@ class BinaryTree {
         System.out.println();
 
         System.out.print("Level order traversal: ");
-        tree.levelOrder();
+        tree.levelOrder();  // Perform level order traversal
         System.out.println();
 
         System.out.println("Size of the tree: " + tree.size(tree.root));
