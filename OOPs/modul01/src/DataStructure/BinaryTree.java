@@ -109,7 +109,7 @@ class BinaryTree {
         System.out.println();
 
         System.out.print("Postorder traversal: ");
-        tree.postorder(tree.root);
+        tree.postorder(tree.root); // Perform postorder traversal
         System.out.println();
 
         System.out.print("Level order traversal: ");
