@@ -12,7 +12,7 @@ class Data{
     }
 
 }
-public class UseData {
+public class UseData { // This class demonstrates the use of the Data class
     public static void main(String[] args) {
         Data.display();
         Data data = new Data();
