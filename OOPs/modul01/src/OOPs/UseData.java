@@ -14,6 +14,7 @@ class Data{
     // It is useful for utility methods that do not require an instance of the class
 }
 public class UseData { // This class demonstrates the use of the Data class
+     // It contains a main method that creates instances of the Data class and calls its methods
     public static void main(String[] args) {
         Data.display();
         Data data = new Data();
