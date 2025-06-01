@@ -21,6 +21,7 @@ public class UseData { // This class demonstrates the use of the Data class
         Data data = new Data();
         Data data1 = new Data();
         Data data2 = new Data();
+        // Creating multiple instances of the Data class
         Data data3 = new Data();
         Data data4 = new Data();
         Data data5 = new Data();
