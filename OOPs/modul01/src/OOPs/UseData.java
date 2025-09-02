@@ -22,10 +22,6 @@ public class UseData { // This class demonstrates the use of the Data class
         Data data1 = new Data();
         Data data2 = new Data();
         // Creating multiple instances of the Data class
-        Data data3 = new Data();
-        Data data4 = new Data();
-        Data data5 = new Data();
-        Data data6 = new Data();
     }
 }
 // In this code, we have a static block in the Data class that prints a message when the class is loaded.
