@@ -8,7 +8,7 @@ class PpsuDepartment {
     }
 }
 
-class PpsuCseDepartment extends PpsuDepartment {
+class PpsuCseDepartment extends PpsuDepartment01 {
     void showCourse() {
         System.out.println("Course: B.Tech Computer Science");
     }
